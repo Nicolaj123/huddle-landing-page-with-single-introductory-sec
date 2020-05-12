@@ -1,0 +1,89 @@
+html {
+  position: absolute;
+  background-image: url(images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cuerpocompleto {
+  font-family: sans-serif;
+}
+
+.ladoizquierdo {
+  padding: 1.5%;
+}
+
+.titulo1 {
+  font-weight: 700;
+  font-family: var("https://fonts.google.com/specimen/Poppins");
+}
+
+.titulo2 {
+  font-weight: 400;
+  font-family: var("https://fonts.google.com/specimen/Poppins");
+}
+
+.motivos {
+  padding: 2%;
+  font-weight: 400;
+  font-family: var("https://fonts.google.com/specimen/Open+Sans");
+}
+
+.ladoderecho {
+  color: white;
+  padding: 3%;
+  padding-top: 60px;
+}
+
+.todo {
+  display: flex;
+  text-align: start;
+}
+
+.boton {
+  color: rgb(216, 51, 216);
+  text-align: center;
+  background-color: white;
+  border-style: hidden;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 12px 60px;
+  font-weight: 700;
+}
+
+.boton:hover {
+  background-color: rgb(139, 98, 177);
+}
+
+.boton:active {
+  background-color: rgb(162, 16, 219);
+  pointer-events: fill;
+}
+.icono {
+  padding: 2%;
+}
+
+.pie {
+}
+
+@media (max-width: 600px) {
+  .todo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 10px;
+  }
+  body.cuerpocompleto {
+    max-width: 10%;
+  }
+  .ladoderecho {
+  }
+  .ladoizquierdo {
+  }
+}
+.pie {
+  inline-size: 48rem;
+}
